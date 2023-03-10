@@ -1,0 +1,15 @@
+class reverse
+{
+ static void rev(int n)
+ {
+  if(n>0)
+  {
+   System.out.print(n%10);
+   rev(n/10);
+  }
+ }
+public static void main(String[] args)
+{
+ rev(123456789);
+}
+}
